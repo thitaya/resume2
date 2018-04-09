@@ -11,31 +11,19 @@ header{ /*หัว*/
    padding-top: 15px; /*เพิ่มพื้นที่*/
    height: 30px;
    border: 0px solid white;
-   background:	#006699;
    color: white;
    
   
 }
-#t{ /*หัว2*/
+.thitaya{ /*หัว2*/
     height: 150px;
     border: 1px solid   #3399FF;
     color: white;
     background-image: url("m.jpg")
     
 }
-h2,h3{
-    text-shadow: 1px 3px #0033FF			;/*สีซ้อน*/
-    margin : 20px;
-    color: #6699FF;
-    font-family: 'Itim', cursive;
-    text-decoration:underline; 
-    text-align: center;
-   
-    
-   
-    
-}
-h1,h4{
+
+h1{
     margin: 18px;
     text-shadow: 2px 3px 	DarkGoldenrod; /*สีซ้อน*/
     font-family: 'Athiti', sans-serif;
@@ -44,14 +32,14 @@ h1,h4{
    
 }
 .left{ /*พื้นที่ฝั่งซ้าย section*/
-    margin-top: 15px;
+    margin-top: 150px;
     margin-left: 41px; /*พื้นที่*/
     width: 490px;
     height: 774px;
     float: left;
 }
 .right{ /*พื้นที่ฝั่งขวา section*/
-    margin-top: 0px;
+    margin-top: 144px;
     margin-left: 50px;
     width: 419px;
     height: 786px;
@@ -61,36 +49,59 @@ h1,h4{
 
 }
 footer{ /*ด้านล่าง*/
-    margin: 0 auto;
+  
     float: left;
-    width: 1000px;
-    height: 80px;
-   
     background:#1d3057
    
 }
-.f{ /*ด้านล่าง*/
-    
-    width: 1000px;
-    height: 50px;
-   
-    background:	#006699;
-   
-}
+
 p {
+    margin : 20px;
     font-family: 'Athiti', sans-serif;
     text-align: center;
-    font-size: 19px;
-   
-}
-p.k{ 
-    margin-top: 30px;
-    color: white;
-}
-p.b{
-    color: white;
+    
    
 }
 .cir{
-    border-radius: 60% ; /*รูปวงกลม*/
+    border-radius: 50% ; /*รูปวงกลม*/
 }
+.height-50{
+    height: 90px;
+}
+.height-40{
+    height: 40px;
+}
+.widht-1000{
+    width: 1000;
+
+}
+.bg-blue{
+    background:	#006699;
+}
+.clear-both {
+    clear: both;
+  }
+ .p{
+     font-size: 12px;
+ }
+ .p-size-color{
+     font-size: 18px; 
+     text-shadow: 1px 3px 3px  #0033FF;
+     color: #6699FF;
+     
+ }
+ .font-colorwhite{
+     color: white;
+ }
+ .p-size{
+     font-size: 20px;
+ }
+ .p-underline{
+    text-decoration:underline; 
+
+ }
+ .p-font{
+    font-family: 'Itim', cursive;
+ }
+
+
