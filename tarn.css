@@ -3,7 +3,7 @@
     margin: 0 auto; /*กำหนดตัวแหน่ง*/
     width: 1000;
     height: 1000px;
-    border: 1px solid #006699;
+    border: 2px solid AliceBlue;
     
     
 }
@@ -24,6 +24,7 @@ header{ /*หัว*/
     
 }
 h2,h3{
+    text-shadow: 1px 3px #0033FF			;/*สีซ้อน*/
     margin : 20px;
     color: #6699FF;
     font-family: 'Itim', cursive;
@@ -52,7 +53,7 @@ h1,h4{
 .right{ /*พื้นที่ฝั่งขวา section*/
     margin-top: 0px;
     margin-left: 50px;
-    width: 418px;
+    width: 419px;
     height: 786px;
     background:AliceBlue;
     float: left;
