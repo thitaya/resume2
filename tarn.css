@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti|Itim');
 #container{
     margin: 0 auto; /*กำหนดตัวแหน่ง*/
     width: 1000;
@@ -25,7 +26,7 @@ header{ /*หัว*/
 h2,h3{
     margin : 20px;
     color: #6699FF;
-    font-family: "EkkamaiStandard-Light";
+    font-family: 'Itim', cursive;
     text-decoration:underline; 
     text-align: center;
    
@@ -34,8 +35,10 @@ h2,h3{
     
 }
 h1,h4{
-    margin: 20px;
+    margin: 18px;
     text-shadow: 2px 3px 	DarkGoldenrod; /*สีซ้อน*/
+    font-family: 'Athiti', sans-serif;
+    
    
    
 }
@@ -67,8 +70,7 @@ footer{ /*ด้านล่าง*/
    
 }
 .f{ /*ด้านล่าง*/
-    margin: 0 auto;
-    float: left;
+    
     width: 1000px;
     height: 50px;
    
@@ -76,8 +78,9 @@ footer{ /*ด้านล่าง*/
    
 }
 p {
-    font-family: "EkkamaiStandard-Light";
+    font-family: 'Athiti', sans-serif;
     text-align: center;
+    font-size: 19px;
    
 }
 p.k{ 
@@ -86,6 +89,7 @@ p.k{
 }
 p.b{
     color: white;
+   
 }
 .cir{
     border-radius: 60% ; /*รูปวงกลม*/
