@@ -1,0 +1,92 @@
+#container{
+    margin: 0 auto; /*กำหนดตัวแหน่ง*/
+    width: 1000;
+    height: 1000px;
+    border: 1px solid #006699;
+    
+    
+}
+header{ /*หัว*/
+   padding-top: 15px; /*เพิ่มพื้นที่*/
+   height: 30px;
+   border: 0px solid white;
+   background:	#006699;
+   color: white;
+   
+  
+}
+#t{ /*หัว2*/
+    height: 150px;
+    border: 1px solid   #3399FF;
+    color: white;
+    background-image: url("/Users/thitaya/Desktop/resume/m.jpg")
+    
+}
+h2,h3{
+    margin : 20px;
+    color: #6699FF;
+    font-family: "EkkamaiStandard-Light";
+    text-decoration:underline; 
+    text-align: center;
+   
+    
+   
+    
+}
+h1,h4{
+    margin: 20px;
+    text-shadow: 2px 3px 	DarkGoldenrod; /*สีซ้อน*/
+   
+   
+}
+.left{ /*พื้นที่ฝั่งซ้าย section*/
+    margin-top: 15px;
+    margin-left: 41px; /*พื้นที่*/
+    width: 490px;
+    height: 774px;
+   
+    float: left;
+}
+.right{ /*พื้นที่ฝั่งขวา section*/
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 418px;
+    height: 786px;
+    background:AliceBlue;
+    float: left;
+
+
+}
+footer{ /*ด้านล่าง*/
+    margin: 0 auto;
+    float: left;
+    width: 1000px;
+    height: 80px;
+   
+    background:#1d3057
+   
+}
+.f{ /*ด้านล่าง*/
+    margin: 0 auto;
+    float: left;
+    width: 1000px;
+    height: 50px;
+   
+    background:	#006699;
+   
+}
+p {
+    font-family: "EkkamaiStandard-Light";
+    text-align: center;
+   
+}
+p.k{ 
+    margin-top: 30px;
+    color: white;
+}
+p.b{
+    color: white;
+}
+.cir{
+    border-radius: 60% ; /*รูปวงกลม*/
+}
