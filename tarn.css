@@ -20,7 +20,7 @@ header{ /*หัว*/
     height: 150px;
     border: 1px solid   #3399FF;
     color: white;
-    background-image: url("/Users/thitaya/resume2/m.jpg")
+    background-image: url("m.jpg")
     
 }
 h2,h3{
@@ -47,7 +47,6 @@ h1,h4{
     margin-left: 41px; /*พื้นที่*/
     width: 490px;
     height: 774px;
-   
     float: left;
 }
 .right{ /*พื้นที่ฝั่งขวา section*/
