@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Athiti|Itim');
+
 #container{
     margin: 0 auto; /*กำหนดตัวแหน่ง*/
     width: 1000;
@@ -37,10 +38,6 @@ p {
     font-family: 'Athiti', sans-serif;  
 }
 
-li{
-    font-family: 'Athiti', sans-serif;
-}
-
 .cir{
     border-radius: 50% ; /*รูปวงกลม*/
 }
@@ -66,7 +63,7 @@ li{
 }
 
 .text-shadowblue{ /*ขนาด สีซ้อน พีตัวหนังสือ */
-     text-shadow: 1px 1px 10px #CCFF00;
+     text-shadow: 1px 1px 10px #bdff0a;
      color: #6699FF;
 }
 
@@ -83,7 +80,7 @@ li{
 }
 
 .font-size{ /*ขนาดตัวหนังสือ*/
-     font-size: 20px;
+     font-size: 21px;
 }
 
 .font-itim{ /*ตัวหนังสือ*/
@@ -98,8 +95,8 @@ li{
     color: white;    /*สีตัวหนังสือ*/
 }
 
-.margin-right{ /*ฝั่งขวา*/
-    margin-top: 45px;
+.margin-right{ /*ฝั่งขวาในกรอบ นส*/
+    margin-top: 35px;
     margin-left: 65px; 
 }
 
