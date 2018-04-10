@@ -66,7 +66,7 @@ li{
 }
 
 .text-shadowblue{ /*ขนาด สีซ้อน พีตัวหนังสือ */
-     text-shadow: 1px 1px 4px  #0033FF;
+     text-shadow: 1px 1px 10px #CCFF00;
      color: #6699FF;
 }
 
