@@ -2,106 +2,126 @@
 #container{
     margin: 0 auto; /*กำหนดตัวแหน่ง*/
     width: 1000;
-    height: 1000px;
-    border: 2px solid AliceBlue;
-    
-    
+    height: 1000;
+    border: 2px solid AliceBlue;  
 }
+
 header{ /*หัว*/
    padding-top: 15px; /*เพิ่มพื้นที่*/
    height: 30px;
-   border: 0px solid white;
-   color: white;
-   
-  
-}
-.thitaya{ /*หัว2*/
-    height: 150px;
-    border: 1px solid   #3399FF;
-    color: white;
-    background-image: url("m.jpg")
-    
 }
 
-h1{
-    margin: 18px;
-    text-shadow: 2px 3px 	DarkGoldenrod; /*สีซ้อน*/
-    font-family: 'Athiti', sans-serif;
-    
-   
-   
+.header{ /*หัว2*/
+    height: 150px;
+    border: 1px solid   #3399FF;
+    background-image: url("m.jpg") 
 }
+
 .left{ /*พื้นที่ฝั่งซ้าย section*/
-    margin-top: 150px;
+    margin-top: 152px;
     margin-left: 41px; /*พื้นที่*/
     width: 490px;
-    height: 774px;
-    float: left;
+    height: 774px; 
 }
+
 .right{ /*พื้นที่ฝั่งขวา section*/
-    margin-top: 144px;
+    margin-top: 147px;
     margin-left: 50px;
     width: 419px;
     height: 786px;
     background:AliceBlue;
-    float: left;
-
-
-}
-footer{ /*ด้านล่าง*/
-  
-    float: left;
-    background:#1d3057
-   
 }
 
 p {
     margin : 20px;
-    font-family: 'Athiti', sans-serif;
-    text-align: center;
-    
-   
+    font-family: 'Athiti', sans-serif;  
 }
+
+li{
+    font-family: 'Athiti', sans-serif;
+}
+
 .cir{
     border-radius: 50% ; /*รูปวงกลม*/
 }
-.height-50{
+
+.height-90{
     height: 90px;
 }
+
 .height-40{
     height: 40px;
 }
+
 .widht-1000{
     width: 1000;
-
 }
+
 .bg-blue{
     background:	#006699;
 }
-.clear-both {
-    clear: both;
-  }
- .p{
-     font-size: 12px;
- }
- .p-size-color{
-     font-size: 18px; 
-     text-shadow: 1px 3px 3px  #0033FF;
-     color: #6699FF;
-     
- }
- .font-colorwhite{
-     color: white;
- }
- .p-size{
-     font-size: 20px;
- }
- .p-underline{
-    text-decoration:underline; 
 
- }
- .p-font{
+.bg-Lightblue {
+    background:#1d3057;
+}
+
+.text-shadowblue{ /*ขนาด สีซ้อน พีตัวหนังสือ */
+     text-shadow: 1px 1px 4px  #0033FF;
+     color: #6699FF;
+}
+
+.text-shadow{ /*สีซ้อน*/
+    text-shadow: 2px 3px 	DarkGoldenrod; 
+}
+
+.text-underline{
+    text-decoration:underline; 
+}
+
+.text-center{ /*ตัวหนังสือตรงกลาง*/
+    text-align: center; 
+}
+
+.font-size{ /*ขนาดตัวหนังสือ*/
+     font-size: 20px;
+}
+
+.font-itim{ /*ตัวหนังสือ*/
     font-family: 'Itim', cursive;
- }
+}
+
+.font-athiti{ /*ตัวหนังสือ*/
+    font-family: 'Athiti', sans-serif;
+}
+
+.fontcolor-white{ 
+    color: white;    /*สีตัวหนังสือ*/
+}
+
+.margin-right{ /*ฝั่งขวา*/
+    margin-top: 45px;
+    margin-left: 65px; 
+}
+
+.margin-left{ /*ฝั่งซ้าย*/ 
+    margin-top: 28px;
+    margin-left: 110px;
+}
+
+.margin-header{
+    margin: 20px;
+}
+
+.float-left{ 
+    float: left;
+}
+
+.hr-color{
+   border:  1px solid #6699FF	;
+}
+
+
+
+
 
 
