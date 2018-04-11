@@ -2,40 +2,40 @@
 
 #container{
     margin: 0 auto; /*กำหนดตัวแหน่ง*/
-    width: 1000;
-    height: 1000;
-    border: 2px solid AliceBlue;  
+    width: 21cm;
+    height: auto;
+    border: 2px solid AliceBlue;
 }
 
 header{ /*หัว*/
    padding-top: 15px; /*เพิ่มพื้นที่*/
    height: 30px;
+   width: 21cm;
 }
 
 .header{ /*หัว2*/
+    width: 100%;
     height: 150px;
     border: 1px solid   #3399FF;
-    background-image: url("m.jpg") 
+    background-image: url("m.jpg")
 }
 
 .left{ /*พื้นที่ฝั่งซ้าย section*/
-    margin-top: 152px;
-    margin-left: 41px; /*พื้นที่*/
-    width: 490px;
-    height: 774px; 
+    width: 50%;
+    height: auto;
+    margin-top: 150px;
 }
 
 .right{ /*พื้นที่ฝั่งขวา section*/
-    margin-top: 147px;
-    margin-left: 50px;
-    width: 419px;
-    height: 786px;
+    width: 50%;
+    height: 900px;
     background:AliceBlue;
+    margin-top: 150px;
 }
 
 p {
     margin : 20px;
-    font-family: 'Athiti', sans-serif;  
+    font-family: 'Athiti', sans-serif;
 }
 
 .cir{
@@ -50,8 +50,8 @@ p {
     height: 40px;
 }
 
-.widht-1000{
-    width: 1000px;
+.widht-a4{
+    width: 21cm;
 }
 
 .bg-blue{
@@ -68,15 +68,15 @@ p {
 }
 
 .text-shadow{ /*สีซ้อน*/
-    text-shadow: 2px 3px 	DarkGoldenrod; 
+    text-shadow: 2px 3px 	DarkGoldenrod;
 }
 
 .text-underline{
-    text-decoration:underline; 
+    text-decoration:underline;
 }
 
 .text-center{ /*ตัวหนังสือตรงกลาง*/
-    text-align: center; 
+    text-align: center;
 }
 
 .font-size{ /*ขนาดตัวหนังสือ*/
@@ -91,16 +91,16 @@ p {
     font-family: 'Athiti', sans-serif;
 }
 
-.fontcolor-white{ 
+.fontcolor-white{
     color: white;    /*สีตัวหนังสือ*/
 }
 
 .margin-right{ /*ฝั่งขวาในกรอบ นส*/
     margin-top: 35px;
-    margin-left: 65px; 
+    margin-left: 65px;
 }
 
-.margin-left{ /*ฝั่งซ้าย*/ 
+.margin-left{ /*ฝั่งซ้าย*/
     margin-top: 28px;
     margin-left: 110px;
 }
@@ -109,16 +109,10 @@ p {
     margin: 20px;
 }
 
-.float-left{ 
+.float-left{
     float: left;
 }
 
 .hr-color{
    border:  1px solid #6699FF	;
 }
-
-
-
-
-
-
